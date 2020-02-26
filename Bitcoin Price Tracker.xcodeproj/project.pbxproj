@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E8FE631C24065A4E00E2E04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE631B24065A4E00E2E04B /* AppDelegate.swift */; };
 		E8FE631E24065A4E00E2E04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE631D24065A4E00E2E04B /* SceneDelegate.swift */; };
-		E8FE632024065A4E00E2E04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE631F24065A4E00E2E04B /* ViewController.swift */; };
+		E8FE632024065A4E00E2E04B /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FE631F24065A4E00E2E04B /* BitcoinViewController.swift */; };
 		E8FE632324065A4E00E2E04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FE632124065A4E00E2E04B /* Main.storyboard */; };
 		E8FE632524065A5100E2E04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FE632424065A5100E2E04B /* Assets.xcassets */; };
 		E8FE632824065A5200E2E04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FE632624065A5100E2E04B /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		E8FE631824065A4E00E2E04B /* Bitcoin Price Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Price Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FE631B24065A4E00E2E04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FE631D24065A4E00E2E04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8FE631F24065A4E00E2E04B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8FE631F24065A4E00E2E04B /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
 		E8FE632224065A4E00E2E04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8FE632424065A5100E2E04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FE632724065A5100E2E04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				E8FE631B24065A4E00E2E04B /* AppDelegate.swift */,
 				E8FE631D24065A4E00E2E04B /* SceneDelegate.swift */,
-				E8FE631F24065A4E00E2E04B /* ViewController.swift */,
+				E8FE631F24065A4E00E2E04B /* BitcoinViewController.swift */,
 				E8FE632124065A4E00E2E04B /* Main.storyboard */,
 				E8FE632424065A5100E2E04B /* Assets.xcassets */,
 				E8FE632624065A5100E2E04B /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FE632024065A4E00E2E04B /* ViewController.swift in Sources */,
+				E8FE632024065A4E00E2E04B /* BitcoinViewController.swift in Sources */,
 				E8FE631C24065A4E00E2E04B /* AppDelegate.swift in Sources */,
 				E8FE631E24065A4E00E2E04B /* SceneDelegate.swift in Sources */,
 			);
